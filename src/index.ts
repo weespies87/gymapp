@@ -8,7 +8,7 @@ import { Ai } from '@cloudflare/ai'
 
 import { WorkoutRoutine, CardioRoutine, UsersMeasurements } from './db/schema';
 
-// Define the Cloudflare Worker environment bindings
+// Define the Cloudflare Worker environment bindings swapped from local
 type Bindings = {
   DB: D1Database;
   AI: Ai;
